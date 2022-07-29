@@ -21,7 +21,6 @@ Durante a execução de uma **"instanciação de um objeto"**.
 <br> 
 
 ### **Exemplos**
-```
 ~~~ java
 
 public class User {
@@ -51,9 +50,8 @@ public class User {
   }
 
 }		
-
 ~~~
-```
+
 
 ```
 
