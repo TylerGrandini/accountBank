@@ -1,25 +1,27 @@
 ### **Sobre os "Construtores":**
-
+ <br> 
 
 
 ### **Quais são suas principais características?**
-* Possuem como principal função inicializar os dados.
-* Seus nomes devem ser idênticos aos das **"classes"**.
+* Possuem como principal função inicialização dos dados.
+* Seus nomes devem ser idênticos aos das **"classes"** que pertencem.
 * Não possuem, sob nenhuma hipótese, **"returns"**.
 * Se um **"construtor"** não for declarado em uma determinada **"classe"**, automaticamente, por padrão, haverá um **"construtor default"** acoplado a ela.
 * A presença de mais de um **"construtor"** numa **"classe"** é categorizada como **"sobrecarga"**.
 * O Java diferencia os **"construtores"** por meio da quantidade de **"parâmetros"**.
+<br> 
 
 ### **Em que momento são executados?**
 Durante a execução de uma **"instanciação de um objeto"**.
+<br> 
 
 ### **Quais são seus usos mais comuns?**
 * Iniciam os valores dos **"atributos"**.
-* Permitem ou obrigam que um determinado **"objeto"** receba dados ou dependências no momento de sua **"instanciação"**, **"injetando dependências"**.
-
+* Permitem ou obrigam que um determinado **"objeto"** receba dados ou dependências no momento de sua **"instanciação"** ao passo que **"injetam dependências"**.
+<br> 
 
 ### **EXEMPLOS**
-```
+~~~ java
 
 public class User {
 
@@ -49,7 +51,7 @@ public class User {
 
 }		
 
-```
+~~~
 
 ```
 
