@@ -1,5 +1,5 @@
 ### **Sobre os "Construtores":**
- <br> 
+<br> 
 
 
 ### **Quais são suas principais características?**
@@ -13,7 +13,7 @@
 
 ### **Em que momento são executados?**
 Durante a execução de uma **"instanciação de um objeto"**.
-<br> 
+<br><br>
 
 ### **Quais são seus usos mais comuns?**
 * Iniciam os valores dos **"atributos"**.
@@ -52,8 +52,7 @@ public class User {
 }		
 ~~~
 
-
-```
+~~~ java
 
 public class TesteConstrutor{
    public static void main(Strinh[] args){
@@ -66,4 +65,4 @@ public class TesteConstrutor{
    }
 }
 
-```
+~~~
